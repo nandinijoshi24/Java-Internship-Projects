@@ -1,57 +1,42 @@
-# Java Internship Games
+# Tic-Tac-Toe
 
-A collection of four Java-based games created during my Java Developer Internship at InternPe.
+A two-player graphical Tic-Tac-Toe game implemented using Java Swing.
 
-## Projects
+## Features
 
-| Game | Type | Main Concepts |
-|---|---|---|
-| [Connect Four](Connect-Four/) | Console | 2D Arrays, Game Logic, Input Validation |
-| [Guess the Number](Guess-the-Number/) | Console | Randomization, Loops, User Input |
-| [Rock Paper Scissors](Rock-Paper-Scissors/) | Console | Arrays, Randomization, Conditional Logic |
-| [Tic-Tac-Toe](Tic-Tac-Toe/) | GUI | Java Swing, Event Handling, GUI Development |
+- Graphical user interface
+- 3 × 3 game board
+- Two-player turn management
+- Button-based gameplay
+- Winner detection for rows, columns, and diagonals
+- Tie detection
+- Game-state management
 
 ## Technologies
 
 - Java
 - Java Swing
-- Scanner
-- Random
-- 2D Arrays
-- Event Handling
+- AWT event handling
+- `JFrame`
+- `JButton`
+- `JLabel`
+- `ActionListener`
+- 2D arrays
 
-## Skills Demonstrated
+## How to Run
 
-- Core Java programming
-- Problem solving
-- Conditional logic
-- Loops and iteration
-- Arrays and 2D arrays
-- Input validation
-- Exception handling
-- GUI development
-- Event-driven programming
-- Game logic implementation
+Compile:
 
-## Repository Structure
-
-```text
-Java-Internship-Games/
-├── Connect-Four/
-│   ├── ConnectFour.java
-│   └── README.md
-├── Guess-the-Number/
-│   ├── GuessNumberGame.java
-│   └── README.md
-├── Rock-Paper-Scissors/
-│   ├── RockPaperScissors.java
-│   └── README.md
-├── Tic-Tac-Toe/
-│   ├── TicTacToe.java
-│   └── README.md
-└── README.md
+```bash
+javac TicTacToe.java
 ```
 
-## Internship
+Run:
 
-These projects were completed as part of my Java Developer Internship at InternPe.
+```bash
+java TicTacToe
+```
+
+## Gameplay
+
+Two players take turns selecting cells on the 3 × 3 board. The game checks rows, columns, and diagonals for a winning combination and also detects a tie when the board is filled without a winner.
